@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Login = () => {
 	return (
 		<div className="h-screen bg-[#c1beff] flex justify-center items-center">
@@ -6,7 +8,9 @@ const Login = () => {
 					<h1 className="text-7xl font-bold text-center">Welcome to XCitizen.</h1>
 					<p>Log in to your account to access exciting features and personalized content. Enjoy a seamless experience with XCitizen.</p>
 					<span className="text-sm">Don&apos;t you have an account?</span>
-					<button className="bg-white text-purple-700 p-2.5 w-6/12 rounded-lg">Register</button>
+					<Link to="/register">
+						<button className="bg-white text-purple-700 p-2.5 w-6/12 rounded-lg">Register</button>
+					</Link>
 				</div>
 				<div className="flex-1 p-12 flex flex-col justify-center space-y-7">
 					<h1 className="text-gray-600 font-bold text-6xl">Login</h1>
