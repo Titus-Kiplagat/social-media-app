@@ -9,14 +9,14 @@ const Login = () => {
 					<p>Log in to your account to access exciting features and personalized content. Enjoy a seamless experience with XCitizen.</p>
 					<span className="text-sm">Don&apos;t you have an account?</span>
 					<Link to="/register">
-						<button className="bg-white text-purple-700 p-2.5 w-6/12 rounded-lg">Register</button>
+						<button className="bg-white text-purple-700 font-bold p-2.5 w-6/12 rounded-lg">Register</button>
 					</Link>
 				</div>
 				<div className="flex-1 p-12 flex flex-col justify-center space-y-7">
-					<h1 className="text-gray-600 font-bold text-6xl">Login</h1>
+					<h1 className="text-gray-600 font-bold text-4xl">Login</h1>
 					<form className="flex flex-col gap-8">
 						<input className="py-5 px-2.5 border-b-2 outline-none" type="text" placeholder="Username" /><input className="py-5 px-2.5 border-b-2 outline-none" type="password" placeholder="Password" />
-						<button className="w-6/12 bg-purple-600 text-white rounded-lg p-2.5" type="submit">login</button>
+						<button className="w-6/12 bg-purple-600 text-white font-bold rounded-lg p-2.5" type="submit">Login</button>
 					</form>
 				</div>
 			</div>
